@@ -1,0 +1,169 @@
+body {
+    background-color: #EE964B;
+    font-family: 'Comic Sans';
+    margin: 20px;
+    padding: 0;
+}
+header, footer {
+    background-color: #1C3144;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#btn{
+    background-color: brown;
+    color: beige;
+    width: 120px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: Verdana ;
+}
+
+#paz{
+    background-color: brown;
+    color: beige;
+    width: 120px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#vio{
+    background-color: brown;
+    color: beige;
+    width: 120px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-weight: bold;
+}
+
+#primerid{
+    font-weight: bold;
+}
+
+#segundoid{
+    font-weight: bold;
+}
+
+#tercerid{
+    font-weight: bold;
+}
+
+#cuartoid{
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=kwap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+
+}
+
+.modal-checkbox {
+    display: none;
+  }
+  
+  .modal {
+    display: none; /* Ocultar la ventana modal inicialmente */
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: brown; /* Fondo semi-transparente */
+  }
+  
+  .modal-contenido {
+    background-color: brown;
+    margin: 10% auto 0; /* Modifica el margin-top para ajustar la posición vertical */
+    padding: 20px;
+    border: 0px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    top: -20px; /* Desplaza el contenido hacia arriba */
+    text-align: center;
+  }
+  .modal-contenido header {
+    text-align: center;
+    margin: 5%;
+    background-color: brown;
+  }
+  .modal-contenido h1{
+    color: #FBB13C;
+  }
+  
+  .modal-contenido p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Estilo para el video */
+  .modal-contenido video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .modal-contenido footer{
+    color: #FBB13C;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: brown;
+  }
+  
+  .cerrar {
+    color: #FBB13C;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .cerrar:hover,
+  .cerrar:focus {
+    color: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Aplicar estilos cuando el checkbox está marcado */
+  .modal-checkbox:checked ~ #miModal {
+    display: block;
+  }
